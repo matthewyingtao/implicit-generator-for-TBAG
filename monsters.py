@@ -653,7 +653,6 @@ monsters = {
 }
 
 
-
 gargantuan_monsters = {
     "Leviathan": "Gargantuan",
     "Ancient Copper Dragon": "Gargantuan",
@@ -1341,4 +1340,3 @@ tiny_monsters = {
 # for monster in dictionary:
 # 	print('"' + monster + '"' + ": " + '"' + monster_data.get(monster) + '"' + ",")
 # print("}")
-
