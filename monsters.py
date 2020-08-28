@@ -1335,10 +1335,10 @@ tiny_monsters = {
 
 # dictionary = dict(zip(monster_names, sizes))
 
-dictionary = sorted(monster_data, key=monster_data.get)
+# dictionary = sorted(monster_data, key=monster_data.get)
 
-print("{")
-for monster in dictionary:
-	print('"' + monster + '"' + ": " + '"' + monster_data.get(monster) + '"' + ",")
-print("}")
+# print("{")
+# for monster in dictionary:
+# 	print('"' + monster + '"' + ": " + '"' + monster_data.get(monster) + '"' + ",")
+# print("}")
 
