@@ -74,12 +74,12 @@ adjectives = ["Abrupt", "Adorable", "Adventurous", "Aggressive", "Agitated", "Al
 bonuses = []
 
 for adjective in adjectives:
-	bonus = []
-	bonus.append(random.randint(5, 30) / 10)
-	bonus.append(random.randint(5, 30) / 10)
-	bonus.append(random.randint(5, 30) / 10)
-	bonus.append(random.randint(5, 30) / 10)
-	bonuses.append(bonus)
+    bonus = []
+    bonus.append(random.randint(5, 30) / 10)
+    bonus.append(random.randint(5, 30) / 10)
+    bonus.append(random.randint(5, 30) / 10)
+    bonus.append(random.randint(5, 30) / 10)
+    bonuses.append(bonus)
 
 implicits = dict(zip(adjectives, bonuses))
 

@@ -653,7 +653,6 @@ monsters = {
 }
 
 
-
 gargantuan_monsters = {
     "Leviathan": "Gargantuan",
     "Ancient Copper Dragon": "Gargantuan",
@@ -1339,6 +1338,6 @@ dictionary = sorted(monster_data, key=monster_data.get)
 
 print("{")
 for monster in dictionary:
-	print('"' + monster + '"' + ": " + '"' + monster_data.get(monster) + '"' + ",")
+    print('"' + monster + '"' + ": " + '"' +
+          monster_data.get(monster) + '"' + ",")
 print("}")
-
